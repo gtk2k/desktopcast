@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <video id="vid"></video>
+    <video id="vid" autoplay></video>
     <script>
         navigator.mediaDevices.getDisplayMedia({ video: true }).then(stream => {
             vid.srcObject = stream;
